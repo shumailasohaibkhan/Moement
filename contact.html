@@ -1,0 +1,477 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Moments</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="assets/images/brand/favicon.jpg" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+<style>
+    
+    .input-success {
+      border-color: green;
+    }
+    .error-message {
+      color: red;
+    }
+</style>
+<body>
+  <div class="sticky-top">
+    <header>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-3">
+            <nav class="navbar-brand"><a href="index.html"><img src="assets/images/brand/logo.png" class="logo" /></a>
+            </nav>
+          </div>
+          <div class="col-md-9">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                  <ul class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                    <li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
+
+                    <li class="nav-item dropdown has-megamenu">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Brands
+                      </a>
+                      <div class="dropdown-menu megamenu" role="menu">
+                        <div class="row g-3">
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <ul class="list-unstyled">
+                                <li><a href="shop.html?brand=canon"><img width="150px" height="100px"
+                                      src="assets/images/brand/brand-image-1.png"></a></li>
+
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+
+                              <ul class="list-unstyled">
+                                <li><a href="shop.html?brand=nikon"><img width="150px" height="100px"
+                                      src="assets/images/brand/brand-image-3.png"></a></li>
+
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+
+                              <ul class="list-unstyled">
+                                <li><a href="shop.html?brand=sony"><img width="150px" height="100px"
+                                      src="assets/images/brand/brand-image-4.png"></a></li>
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <ul class="list-unstyled">
+                                <li><a href="shop.html?brand=fujifilm"><img width="150px" height="100px"
+                                      src="assets/images/brand/brand-image-5.png"></a></li>
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                        </div><!-- end row -->
+                      </div> <!-- dropdown-mega-menu.// -->
+                    </li>
+
+                    <li class="nav-item dropdown has-megamenu">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services
+                      </a>
+                      <div class="dropdown-menu megamenu" role="menu">
+                        <div class="row g-3">
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=lenses"><img width="150px" height="100px"
+                                      src="assets/images/brand/lenses.png"></a>
+                                  <h4>lenses</h4>
+                                </li>
+
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=pro-audio"><img width="150px" height="100px"
+                                      src="assets/images/brand/pro-audio.png"></a></li>
+                                <h4>pro-audio</h4>
+
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=memory-card"><img width="150px" height="100px"
+                                      src="assets/images/brand/memorycard.png"></a></li>
+                                <h4>memory card</h4>
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=tripod-support"><img width="150px" height="100px"
+                                      src="assets/images/brand/tripod-logo.png"></a></li>
+                                <h4>tripod & support</h4>
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=lighting-studio"><img width="150px" height="100px"
+                                      src="assets/images/brand/lighting.png"></a></li>
+                                <h4>lighting and studio</h4>
+
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=camerabags-cases"><img width="150px" height="100px"
+                                      src="assets/images/brand/bags.png"></a></li>
+                                <h4>bags and case</h4>
+
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div><!-- end col-3 -->
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+
+                              <ul class="list-unstyled">
+                                <li><a href="services.html?service=accessories"><img width="150px" height="100px"
+                                      src="assets/images/brand/accessories.png"></a></li>
+                                <h4>accessories</h4>
+                              </ul>
+                            </div> <!-- col-megamenu.// -->
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <!-- col-megamenu.// -->
+                          </div>
+                        </div><!-- end row -->
+                      </div> <!-- dropdown-mega-menu.// -->
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html"> Contact</a></li>
+                    <li><a href="comparsion.html"><i class="fa-solid fa-code-compare"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html"> Login</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="cone">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+
+        <div class="info">
+          <div class="information">
+            <h5>address</h5>
+            <p><a href="https://maps.app.goo.gl/xMSa75Mc5jmFJB6x9">SD-Block1 North Nazimabad</a></p>
+          </div>
+          <div class="information">
+            <h5>email address:</h5>
+            <p><a href="mailto:info@moment.com">info@moment.com</a></p>
+          </div>
+          <div class="information">
+            <h5>phone no:</h5>
+            <p><a href="tel:03056789345">03056789345</a></p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/qQpa1kjLw8dH6XUt/?mibextid=qi2Omg">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/msnapthe/?igsh=MXNscmt3dmk0MTFtNw%3D%3D">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@SnaptheMoments">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/snap-the-moments-269269314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+        <form name="contactForm" action="index.html" autocomplete="off" onsubmit="return validateForm()">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+                <input type="text" name="name" id="name" class="input" />
+                <label for="name">Username</label>
+                <span>Username</span>
+                <div id="nameErr" class="error-message"></div>
+            </div>
+            <div class="input-container">
+                <input type="email" name="email" id="email" class="input" />
+                <label for="email">Email</label>
+                <span>Email</span>
+                <div id="emailErr" class="error-message"></div>
+            </div>
+            <div class="input-container">
+                <input type="tel" name="phone" id="phone" class="input" />
+                <label for="phone">Phone</label>
+                <span>Phone</span>
+                
+                <div id="phoneErr" class="error-message"></div>
+            </div>
+            <div class="input-container textarea">
+                <textarea name="message" id="message" class="input"></textarea>
+                <label for="message">Message</label>
+                <span>Message</span>
+                <div id="messageErr" class="error-message"></div>
+            </div>
+            <button type="submit" class="btn">Send</button>
+            <div id="successMsg" class="success-message"></div>
+        </form>
+    </div>
+      
+    </div>
+  </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.137712000835!2d67.03045847596862!3d24.927378142575503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1722627552175!5m2!1sen!2s"
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>abouts us</h2>
+              <div class="middle">
+                <span><a href="https://www.facebook.com/profile.php?id=61561377092270&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a></span>
+                <span><a href="https://www.instagram.com/msnapthe?igsh=MXNscmt3dmk0MTFtNw=="><i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/snap-the-moments-269269314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                      class="fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://youtube.com/@snapthemoments?si=AO6w9xsaZOO4s6tj"><i class="fa-brands fa-youtube"></i></a></span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                  <h2>menu</h2>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="shop.html?brand=canon">brand</a></li>
+                  <li><a href="services.html?service=lenses">services</a></li>
+                  <li><a href="contact.html">contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-5">
+              <ul>
+                <h2>contact us</h2>
+                <li><a href="mailto:info@moment.com">email:<small>info@moment.com</small></a></li>
+                <li><a href="tel:+02136630102">phone:<small>03056789345</small></a></li>
+                <li><a href="https://maps.app.goo.gl/6daZ2Fp7KQ9TbmKF9">address:<small>SD-1,Block A North
+                      Nazimabad Town,Karachi</small></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const inputs = document.querySelectorAll('.input');
+
+  inputs.forEach(input => {
+    input.addEventListener('focus', function() {
+      this.parentNode.classList.add('focus');
+    });
+
+    input.addEventListener('blur', function() {
+      if (this.value === '') {
+        this.parentNode.classList.remove('focus');
+      }
+    });
+
+    if (input.value !== '') {
+      input.parentNode.classList.add('focus');
+    }
+  });
+});
+  </script>
+  <script>
+    function printError(Id, Msg) {
+  const element = document.getElementById(Id);
+  if (element) {
+      element.innerHTML = Msg;
+  }
+}
+
+function clearError(Id, inputId) {
+  printError(Id, "");
+  const inputElement = document.getElementById(inputId);
+  if (inputElement) {
+      inputElement.classList.remove("input-2");
+      inputElement.classList.remove("input-success");
+  }
+}
+
+function validateName() {
+  var name = document.forms["contactForm"]["name"].value.trim();
+  var nameErr = false;
+
+  if (name === "") {
+      printError("nameErr", "Please enter your name");
+      document.getElementById("name").classList.add("input-2");
+      nameErr = true;
+  } else {
+      var regex = /^[a-zA-Z\s]+$/;
+      if (!regex.test(name)) {
+          printError("nameErr", "Please enter a valid name");
+          document.getElementById("name").classList.add("input-2");
+          nameErr = true;
+      } else {
+          clearError("nameErr", "name");
+          document.getElementById("name").classList.add("input-success");
+      }
+  }
+  return !nameErr;
+}
+
+function validateEmail() {
+  var email = document.forms["contactForm"]["email"].value.trim();
+  var emailErr = false;
+
+  if (email === "") {
+      printError("emailErr", "Please enter your email address");
+      document.getElementById("email").classList.add("input-2");
+      emailErr = true;
+  } else {
+      var regex = /^\S+@\S+\.\S+$/;
+      if (!regex.test(email)) {
+          printError("emailErr", "Please enter a valid email address");
+          document.getElementById("email").classList.add("input-2");
+          emailErr = true;
+      } else {
+          clearError("emailErr", "email");
+          document.getElementById("email").classList.add("input-success");
+      }
+  }
+  return !emailErr;
+}
+
+function validatePhone() {
+  var phone = document.forms["contactForm"]["phone"].value.trim();
+  var phoneErr = false;
+
+  if (phone === "") {
+      printError("phoneErr", "Please enter your phone number");
+      document.getElementById("phone").classList.add("input-2");
+      phoneErr = true;
+  } else {
+      var regex = /^[0-9]{10}$/;
+      if (!regex.test(phone)) {
+          printError("phoneErr", "Please enter a valid 10-digit phone number");
+          document.getElementById("phone").classList.add("input-2");
+          phoneErr = true;
+      } else {
+          clearError("phoneErr", "phone");
+          document.getElementById("phone").classList.add("input-success");
+      }
+  }
+  return !phoneErr;
+}
+
+function validateMessage() {
+  var message = document.forms["contactForm"]["message"].value.trim();
+  var messageErr = false;
+
+  if (message === "") {
+      printError("messageErr", "Please enter your message");
+      document.getElementById("message").classList.add("input-2");
+      messageErr = true;
+  } else {
+      var regex = /^[a-zA-Z\s]+$/;
+      if (!regex.test(message)) {
+          printError("messageErr", "Please enter a valid message");
+          document.getElementById("message").classList.add("input-2");
+          messageErr = true;
+      } else {
+          clearError("messageErr", "message");
+          document.getElementById("message").classList.add("input-success");
+      }
+  }
+  return !messageErr;
+}
+
+function validateForm() {
+  var nameValid = validateName();
+  var emailValid = validateEmail();
+  var phoneValid = validatePhone();
+  var messageValid = validateMessage();
+
+  if (nameValid && emailValid && phoneValid && messageValid) {
+      document.getElementById("successMsg").innerHTML = "Form submitted successfully!";
+      
+      // Clear all error messages and input styles after a short delay
+      setTimeout(function() {
+          document.forms["contactForm"].reset();
+          clearError("nameErr", "name");
+          clearError("emailErr", "email");
+          clearError("phoneErr", "phone");
+          clearError("messageErr", "message");
+          document.getElementById("successMsg").innerHTML = "";
+      }, 3000); // 3 seconds delay
+
+      return true;
+  } else {
+      return false;
+  }
+}
+
+// Attach validation functions to input events
+document.getElementById("name").addEventListener("input", validateName);
+document.getElementById("email").addEventListener("input", validateEmail);
+document.getElementById("phone").addEventListener("input", validatePhone);
+document.getElementById("message").addEventListener("input", validateMessage);
+
+  </script>
+</body>
+
+</html>
